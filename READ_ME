@@ -1,0 +1,45 @@
+# 🎵 Music Store Analysis (SQL Project)
+
+This project involves analyzing data from a digital music store using SQL. The objective is to extract insights from various tables such as albums, artists, customers, invoices, tracks, and employees to understand business performance, customer behavior, and music trends.
+
+## 📁 Dataset
+
+The dataset includes the following tables:
+- `album`
+- `artist`
+- `customer`
+- `employee`
+- `genre`
+- `invoice`
+- `invoice_line`
+- `media_type`
+- `playlist`
+- `playlist_track`
+- `track`
+
+Each table was loaded into PostgreSQL using the `COPY` or `\COPY` command.
+
+## 🧠 Key Insights
+
+- Top-selling tracks and genres
+- Revenue generated per country and customer
+- Monthly invoice trends
+- Employee reporting structure and roles
+- Artist with the highest number of albums
+- Most valuable customers based on purchases
+
+## 🛠️ Technologies Used
+
+- **PostgreSQL** for database setup and queries
+- **psql** CLI for interacting with the database
+- CSV files for data import
+- SQL queries for analysis and insight generation
+
+## 🚀 How to Run
+
+1. **Set up PostgreSQL** on your system.
+2. Create a database:
+   ```sql
+   CREATE DATABASE music_store;
+   \c music_store
+
